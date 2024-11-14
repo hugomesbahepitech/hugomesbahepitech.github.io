@@ -1,0 +1,23 @@
+
+
+.App {
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
+    background-color: white; 
+    min-height: 100vh; 
+}
+
+.App-header {
+    background-color: #00f2fe; 
+    padding: 20px; 
+    color: white; 
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 10px; 
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
