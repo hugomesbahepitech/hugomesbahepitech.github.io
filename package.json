@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel public/index.html",
+    "start": "serve -s dist",
     "build": "parcel build public/index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +28,8 @@
     "lightningcss": "^1.28.1",
     "parcel": "^2.13.0",
     "postcss": "^8.4.47",
-    "posthtml-parser": "^0.12.1"
+    "posthtml-parser": "^0.12.1",
+    "serve": "^14.0.1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
